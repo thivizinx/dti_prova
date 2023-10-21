@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: space-evenly;
+  width: 40vw;
+  background-color: #f8f8f8;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+.dado {
+  display: flex;
+  justify-content: center;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+}
+
+.nome {
+  display: flex;
+  justify-content: center;
+}
+
+.lab {
+  padding: 5px;
+  background-color: lightgrey;
+  border-radius: 5px 0px 0px 5px;
+  width: 10%;
+}
+
+.input {
+  padding: 5px;
+  -webkit-appearance: none;
+  border: 0;
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+  outline: 0;
+}
+
+.in {
+  padding: 5px;
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+  display: block;
+  -webkit-appearance: none;
+  width: 40%;
+}
+
+.butao {
+  align-self: flex-end;
+  background-color: #3434f4;
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.butao:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.but {
+  font-size: 70%;
+  margin-left: 5px;
+  align-self: flex-end;
+  background-color: red;
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.but:hover {
+  background-color: #fd6d6d;
+  cursor: pointer;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .lab {
+    width: 15%;
+  }
+
+  .input {
+    width: 35%;
+  }
+
+  .in {
+    width: 50%;
+  }
+
+  .butao {
+    padding: 10px 20px;
+  }
+
+  .but {
+    padding: 1px 3px;
+  }
+}
+.esq{
+  display:flex;
+  justify-content:flex-start;
+}
