@@ -126,7 +126,7 @@ function Lembrete() {
         ))}
       </form>
     </div>
-  );
+  )
 }
 
 export default Lembrete;
